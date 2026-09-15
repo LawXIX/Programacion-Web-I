@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 112.5%;
+}
+
+.contenedor {
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-left: 0.0625rem solid #000;
+    border-right: 0.0625rem solid #000;
+     background-color: #ececec
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+   
+}
+
+.foto-perfil {
+    width: 10rem;
+    height: 8rem;
+    background-color: #b3b3b3;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #020202;
+    font-weight: bold;
+    flex-shrink: 0;
+    border: 0.125rem solid #000;
+}
+
+.contenido {
+    padding: 2rem;
+    flex: 1;
+}
+
+.contenido section {
+    margin-bottom: 2rem;
+}
+
+.contenido h2 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.contenido ul {
+    list-style-position: inside;
+    margin-left: 1rem;
+}
+
+.contenido li {
+    margin-bottom: 0.5rem;
+}
+
+.experiencia a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.estudios a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.detalle {
+  width: 80%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ececec;
+}
+
+.detalle h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.detalle h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.detalle p {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.detalle ul {
+  list-style-position: inside;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detalle li {
+  margin-bottom: 0.4rem;
+}
+
+.detalle .mapa iframe {
+  width: 100%;
+  height: 25rem;
+  border: 0;
+  margin-bottom: 1.5rem;
+}
+
+.volver {
+  color: #7b2ff7;
+  text-decoration: underline;
+}
+
+.detalle .galeria img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  border-radius: 0.5rem;
+}
